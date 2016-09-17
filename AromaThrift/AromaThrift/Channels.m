@@ -7,16 +7,16 @@
 
 #import <Foundation/Foundation.h>
 
-@import LibThrift;
-
-
-
-
-
-
-
-
-
+#import "TProtocol.h"
+#import "TApplicationException.h"
+#import "TProtocolException.h"
+#import "TProtocolUtil.h"
+#import "TProcessor.h"
+#import "TObjective-C.h"
+#import "TBase.h"
+#import "TAsyncTransport.h"
+#import "TProtocolFactory.h"
+#import "TBaseClient.h"
 
 #import "Aroma.h"
 #import "Endpoint.h"
