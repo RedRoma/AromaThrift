@@ -7,4 +7,4 @@ AromaThrift
 
 ---
 
-Carthage package for AromaThrift bindings
+Aroma Thrift bindings for Swift & Objective-C
