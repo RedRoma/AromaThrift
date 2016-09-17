@@ -6,13 +6,7 @@ before_install:
   - brew update
 
   # Only if app has Carthage dependencies
-  - carthage bootstrap --verbose
+  #- carthage bootstrap --verbose
 
 script:
   - carthage build --no-skip-current
-  - |
-    xcodebuild test \
-    -workspace AromaThrift.xcworkspace \
-    -scheme LexisDatabase \
-    -sdk iphonesimulator \
-    -destination 'platform=iOS Simulator,name=iPhone 6,OS=latest'
