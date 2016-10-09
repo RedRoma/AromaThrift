@@ -36,7 +36,6 @@
 		DE4DA1931D8DD780003183F4 /* NotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4DA1771D8DD780003183F4 /* NotificationService.m */; };
 		DE4DA1941D8DD780003183F4 /* Reactions.h in Headers */ = {isa = PBXBuildFile; fileRef = DE4DA1781D8DD780003183F4 /* Reactions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE4DA1951D8DD780003183F4 /* Reactions.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4DA1791D8DD780003183F4 /* Reactions.m */; };
-		DE4DA20F1D8DDA6F003183F4 /* Sulcus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE4DA20D1D8DDA6F003183F4 /* Sulcus.framework */; };
 		DE4DA2451D8DDE3B003183F4 /* TBase.h in Headers */ = {isa = PBXBuildFile; fileRef = DE4DA2121D8DDE3B003183F4 /* TBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE4DA2461D8DDE3B003183F4 /* TBinaryProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DE4DA2131D8DDE3B003183F4 /* TBinaryProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE4DA2471D8DDE3B003183F4 /* TBinaryProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4DA2141D8DDE3B003183F4 /* TBinaryProtocol.m */; };
@@ -132,7 +131,6 @@
 		DE4DA1771D8DD780003183F4 /* NotificationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationService.m; sourceTree = "<group>"; };
 		DE4DA1781D8DD780003183F4 /* Reactions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reactions.h; sourceTree = "<group>"; };
 		DE4DA1791D8DD780003183F4 /* Reactions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reactions.m; sourceTree = "<group>"; };
-		DE4DA20D1D8DDA6F003183F4 /* Sulcus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sulcus.framework; sourceTree = "<group>"; };
 		DE4DA2121D8DDE3B003183F4 /* TBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBase.h; sourceTree = "<group>"; };
 		DE4DA2131D8DDE3B003183F4 /* TBinaryProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBinaryProtocol.h; sourceTree = "<group>"; };
 		DE4DA2141D8DDE3B003183F4 /* TBinaryProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBinaryProtocol.m; sourceTree = "<group>"; };
@@ -189,7 +187,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE4DA20F1D8DDA6F003183F4 /* Sulcus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,7 +251,6 @@
 		DE4DA1961D8DD79D003183F4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DE4DA20D1D8DDA6F003183F4 /* Sulcus.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
